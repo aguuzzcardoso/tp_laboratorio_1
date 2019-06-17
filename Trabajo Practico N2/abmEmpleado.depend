@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1538785630 source:c:\users\alumno\desktop\abmempleado\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleado.h"
+
+1538785298 source:c:\users\alumno\desktop\abmempleado\empleado.c
+	"empleado.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1538777173 c:\users\alumno\desktop\abmempleado\empleado.h
+
+1538785298 source:c:\users\alumno\downloads\abmempleadoalmuerzo (1)\abmempleado\empleado.c
+	"empleado.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1538777173 c:\users\alumno\downloads\abmempleadoalmuerzo (1)\abmempleado\empleado.h
+
+1557174486 source:c:\users\agustin\downloads\abmempleado-20190518t225640z-001\abmempleado\empleado.c
+	"empleado.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1557174486 c:\users\agustin\downloads\abmempleado-20190518t225640z-001\abmempleado\empleado.h
+
+1558247925 source:c:\users\agustin\documents\trabajo practico n2\abmempleado\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleado.h"
+
+1558246386 c:\users\agustin\documents\trabajo practico n2\abmempleado\empleado.h
+
+1558247243 source:c:\users\agustin\documents\trabajo practico n2\abmempleado\empleado.c
+	"empleado.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1560812021 source:d:\agus\tp_laboratorio_2-master\empleado.c
+	"empleado.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1560732260 d:\agus\tp_laboratorio_2-master\empleado.h
+
+1560808169 source:d:\agus\tp_laboratorio_2-master\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleado.h"
+
+1560812438 source:d:\agus\trabajo practico n2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleado.h"
+
+1560732260 d:\agus\trabajo practico n2\empleado.h
+
