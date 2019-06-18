@@ -302,20 +302,15 @@ void ordenarEmpleados(eEmpleado lista[], int tam, int ord)
 
         for(int j=i+1; j < tam; j++)
         {
-            if((ord == 0 && strcmp(lista[i].apellido, lista[j].apellido)>0) ||
-               (ord == 1 && strcmp(lista[i].apellido, lista[j].apellido)<0))
+
+            if(((ord == 0 && strcmp(lista[i].apellido, lista[j].apellido)>0) || lista[i].sector > lista[j].sector) ||
+               ((ord == 1 && strcmp(lista[i].apellido, lista[j].apellido)<0) || lista[i].sector < lista[j].sector))
             {
             aux = lista[i];
             lista[i] = lista[j];
             lista[j] = aux;
             }
 
-            else if (lista[i].sector > lista[j].sector)
-            {
-            aux = lista[i];
-            lista[i] = lista[j];
-            lista[j] = aux;
-            }
         }
     }
 }

@@ -70,18 +70,13 @@ int menu()
 int submenu()
 {
     int opcion;
-    int flag = 0;
 
     do{
         printf("\nDesea ordenarlo ascendentemente-0- o descendentemente-1- ?. Ingrese un numero: ");
         fflush(stdin);
         scanf("%d", &opcion);
 
-        if (opcion == 0 || opcion == 1){
-            flag = 1;
-        }
-
-    }while (flag == 0);
+    }while (opcion != 0 && opcion != 1);
 
     return opcion;
 }
